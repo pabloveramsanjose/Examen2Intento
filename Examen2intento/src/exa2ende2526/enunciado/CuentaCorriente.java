@@ -4,7 +4,7 @@ public class CuentaCorriente extends CuentaBancaria {
 	
 	private double comision;
 
-	public CuentaCorriente(String titular, double saldoInicial) {
+	public CuentaCorriente(String titular, double saldoInicial, int comision) {
 		super(titular, saldoInicial);
 		this.comision  = comision;
 	}
